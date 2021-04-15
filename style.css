@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+body{
+    background-color: rgb(56, 56, 56);
+    color: white;
+}
+/* #home{
+    width: 100%;
+    height: 100vh;
+}
+#home .main_row{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: tomato 2px solid;
+    position: relative;
+} */
+.navbar-nav a{
+    font-size: 20px;
+    transition: all .4s ease !important;
+}
+.navbar-nav a:hover{
+    color: tomato !important;
+    border-top: tomato 2px solid;
+}
+#home .main-row{
+    height: 90vh;
+    width: 100%;
+}
+#home .main_row h1{
+    font-size: 70px;
+}
+#home .main_row h3{
+    font-size: 40px;
+}
+#home .main_row .text{
+    padding-left: 10%;
+}
+#home .contact_me a{
+    text-decoration: none;
+    color: white;
+    border: tomato 3px solid;
+    padding: 5px 15px 5px 15px;
+    border-radius: 50px;
+    transition: all 0.4s ease;
+}
+#home .contact_me a:hover{
+    color: white;
+    border: rgb(255, 83, 53) 3px solid;
+    background-color: rgb(36, 36, 36);
+}
+#home .main_row img{
+    width: 450px;
+    height: auto;
+    /* position: absolute;
+    top: 16.5%;
+    right: 5%; */
+}
+#about {
+    background-color: rgb(70, 70, 70);
+}
+.card-border{
+    border: tomato 3px solid;
+}
+#works .container{
+    background-color: rgb(70, 70, 70);
+    padding-top: 30px;
+    margin-bottom: 40px;
+}
+#works .container a{
+    text-decoration: none;
+    font-size: 20px;
+    color: skyblue;
+}
+#works .container a:hover{
+    color: rgb(64, 181, 228)
+}
+#contact-me .social_media i{
+    color: white !important;
+    transition: all 0.4s ease;
+}
+#contact-me .social_media i:hover{
+    background-color: transparent !important;
+    color: rgb(255, 151, 132) !important;
+}
